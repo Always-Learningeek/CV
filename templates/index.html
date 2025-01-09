@@ -1,0 +1,293 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<title>DevResume - Bootstrap Resume/CV Template For Software Developers</title>
+	
+	<!-- Meta -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="Xiaoying Riley at 3rd Wave Media">    
+	<link rel="shortcut icon" href="{% static 'images/01.png' %}"> 
+	
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+	
+	<!-- FontAwesome JS-->
+	<script defer src="{% static 'fontawesome/js/all.min.js' %} "></script>
+	
+	<!-- Theme CSS -->  
+	<link id="theme-style" rel="stylesheet" href="{% static 'css/devresume.css'%}">
+    <style>
+        .rtl { direction: rtl; text-align: right; }
+    </style>
+</head> 
+
+<body>
+	
+	<div class="main-wrapper">
+		<div class="container px-3 px-lg-5">
+			<article class="resume-wrapper mx-auto theme-bg-light p-5 mb-5 my-5 shadow-lg">
+				
+				<div class="resume-header">
+					<div class="row align-items-center">
+						<div class="resume-title col-12 col-md-6 col-lg-8 col-xl-9">
+							<h2 class="resume-name mb-0 text-uppercase">سید یاسین شريعتی</h2>
+							<div class="resume-tagline mb-3 mb-md-0">Back-end Developer </div>
+						</div><!--//resume-title-->
+						<div class="resume-contact col-12 col-md-6 col-lg-4 col-xl-3">
+							<ul class="list-unstyled mb-0">
+								<li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg me-2 "></i><a class="resume-link" href="tel:#">0098 903 093 1115</a></li>
+								<li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg me-2"></i><a class="resume-link" href="mailto:#">myrealemail1400@gmail.com</a></li>
+								<li class="mb-2"><i class="fas fa-globe fa-fw fa-lg me-2"></i><a class="resume-link" href="#">yasin-shariati.ir</a></li>
+								<li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg me-2"></i>Shiraz</li>
+							</ul>
+						</div><!--//resume-contact-->
+					</div><!--//row-->
+					
+				</div><!--//resume-header-->
+				<hr>
+				<div class="resume-intro py-3">
+					<div class="row align-items-center">
+						<div class="col-12 col-md-3 col-xl-2 text-center">
+						    <img class="resume-profile-image mb-3 mb-md-0 me-md-5  ms-md-0 rounded mx-auto" src="{% static 'images/resume-profile_.png'%}" alt="image">
+						</div>
+						
+						<div class="col text-start">
+							<p> من برنامه نویس بکند هستم با روحیه تیمی یالا و با انگیزه زیاد برای یادگیری با معماری  و پترن ها در حوزه وب به زبان سی شارپ ، پایتون آشنایی دارم و هر روز در حال تلاش برای افزایش کیفیت کدنویسی  خود و افرایش مهارت ها و یادگیری تکنولوژی های روز نظیر داکر هستم.(شرایط حضور تمام وقت را دارا میباشم)</p>
+						</div><!--//col-->
+					</div>
+				</div><!--//resume-intro-->
+				<hr>
+				<div class="resume-body">
+					<div class="row">
+						<div class="resume-main col-12 col-lg-8 col-xl-9   pe-0   pe-lg-5">
+							<section class="work-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">تجربه کاری</h3>
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">دوره الگوریتم و برنامه نویسی 	</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Google | 2023 - Present</div>
+										
+									</div>
+									<div class="item-content">
+										<p>•	دوره  در موسسه مجتمع فنی تهران گذارنده شده با کد استعلام : 1319522  14 شهریور 1399</p>
+									</div>
+								</div><!--//item-->
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">Web Design I</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Apple | 2022 - 2023</div>
+										
+									</div>
+									<div class="item-content">
+										<p>•	دوره طراحی وب نظیر HTML , CSS  را  در مجتمع فنی تهران گذرانده شده کد استعلام : 1374436	   	  28 فروردین 1400</p>
+									</div>
+								</div><!--//item-->
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">برنامه نویسی پایتون</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Dropbox | 2020 - 2022</div>
+										
+									</div>
+									<div class="item-content">
+										<p>•	دوره برنامه نویسی با پایتون را در مجتمع فنی تهران گذارنده شده با کد استعلام : 1322884			  4 دی ماه  1399</p>
+									</div>
+								</div><!--//item-->
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">خودآموزی بکند وب با جنگو </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Uber | 2019 - 2020</div>
+										
+									</div>
+									<div class="item-content rtl">
+										<p>
+                                            <li>یادگیری مفاهیم  MVT</li>
+                                            <li>یادگیری RESTful API</li>
+                                            <li>DRF</li>
+                                            <li>Serializers</li>
+                                            <li>Simple-JWT</li>
+                                            <li>Web security</li>
+                                            <li>Postman</li>
+                                            <li>Docker</li>
+                                        </p>
+									</div>
+								</div><!--//item-->
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">خود آموزی لینوکس</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Amazon | 2018 - 2019</div>
+										
+									</div>
+									<div class="item-content">
+										<p>در حدود هفت ساعت دوره لینوکس Ubuntu  گذرانده شده.	</p>
+									</div>
+								</div><!--//item-->
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">خودآموزی بکند وب با ASP.NET Core </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Startup | 2017 - 2018</div>
+										
+									</div>
+									<div class="item-content">
+										<p>
+                                            <li>یادگیری زبان سی شارپ</li>
+                                            <li>یادگیری معماری کاری NET Core</li>
+                                        </p>
+									</div>
+								</div><!--//item-->
+								
+							</section><!--//work-section-->
+
+							
+							<section class="project-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">پروژه ها</h3>
+								<div class="item mb-3">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">طراحی وبسایت شخصی با معماری MVT  در جنگو</h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+										
+									</div>
+									<div class="item-content">
+										<p>
+                                            <li>یک وبسایت شخصی بر اساس مدل ویو تمپلیت طراحی کردم .</li>
+                                            <li>ابزار های استفاده شده :  Django, PostgreSQL, MVT</li>
+                                            <a href="#" class="theme-link">provide a project link here</a>
+                                        </p>
+										
+										
+									</div>
+								</div><!--//item-->
+								<div class="item">
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">شبکه اجتماعی </h4>
+										<div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end">Open Source</div>
+										
+									</div>
+									<div class="item-content">
+										<p>
+                                            <li>یک  شبکه اجتماعی را تمرین کرده و توسعه دادم.</li>
+                                            <li>ابزار های استفاده شده : ِDjango, DRF, PostgreSQL, Simple-JWT Token, Python</li>
+                                        </p>
+										
+									</div>
+								</div><!--//item-->
+								<div class="itemmm">
+
+									<div class="item-heading row align-items-center mb-2">
+										<h4 class="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0"> Todo API</h4>
+                                        <div class="item-meta col-12 col-md-6 col-lg-4 text-muted text-start text-md-end"><a href="https://github.com/Always-Learningeek/ToDo.git">GitHub(کلیک کنید)</a></div>
+										
+									</div>
+									<div class="item-content">
+										<p>
+                                            <li>یک برنامه با معماری Rest API  برای برنامه ریزی توسعه دادم.</li>
+                                            <li>ابزار های استفاده شده : ِDjango, DRF, PostgreSQL, Simple-JWT Token, Python</li>
+                                        </p>
+										
+									</div>
+								</div><!--//item-->
+							</section><!--//project-section-->	
+						</div><!--//resume-main-->
+						<aside class="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+							<section class="skills-section py-3">
+								<h3 class="text-uppercase resume-section-heading mb-4">مهارت ها</h3>
+								<div class="item">
+									<h4 class="item-title">Technical</h4>
+									<ul class="list-unstyled resume-skills-list">
+										<li class="mb-2">Python/C#/C/C++</li>
+										<li class="mb-2">HTML/CSS<li>
+											<li class="mb-2">Django/DRF/PostgreSQL</li>
+											<li class="mb-2">Git /SQL Server/.NET core/</li>
+											<li class="mb-2">OOP/</li>
+											<li class="mb-2">Design and implement database structures</li>
+											<li>Lead and deliver complex software systems</li>
+										</ul>
+									</div><!--//item-->
+									<div class="item">
+										<h4 class="item-title">Professional</h4>
+										<ul class="list-unstyled resume-skills-list">
+											<li class="mb-2">Effective communication</li>
+											<li class="mb-2">Team player<li>
+												<li class="mb-2">Strong problem solver</li>
+												<li>Good time management</li>
+											</ul>
+										</div><!--//item-->
+									</section><!--//skills-section-->
+									<section class="education-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">تحصیلات</h3>
+										<ul class="list-unstyled resume-education-list">
+											<li class="mb-3">
+												<div class="resume-degree font-weight-bold">MSc in Computer Science</div>
+												<div class="resume-degree-org text-muted">University College London</div>
+												<div class="resume-degree-time text-muted">2012 - 2016</div>
+											</li>
+											<li>
+												<div class="resume-degree font-weight-bold">BSc Maths and Physics</div>
+												<div class="resume-degree-org text-muted">Imperial College London</div>
+												<div class="resume-degree-time text-muted">2016 - 2017</div>
+											</li>
+										</ul>
+									</section><!--//education-section-->
+									<section class="education-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">افتخارات</h3>
+										<ul class="list-unstyled resume-awards-list">
+											<li class="mb-3">
+												<div class="font-weight-bold">Award Lorem Ipsum</div>
+												<div class="text-muted">Microsoft lorem ipsum (2023)</div>
+											</li>
+											<li>
+												<div class="font-weight-bold">Award Donec Sodales</div>
+												<div class="text-muted">Oracle Aenean (2020)</div>
+											</li>
+										</ul>
+									</section><!--//education-section-->
+									<section class="skills-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">زبان ها</h3>
+										<ul class="list-unstyled resume-lang-list">
+											<li class="mb-2">پارسی <span class="text-muted">(مادری)</span></li>
+											<li class="mb-2">انگلیسی <span class="text-muted">(متوسط)</span></li>
+                                            <li>ترکی استانبولی <span class="text-muted">(مقدماتی)</span></li>
+
+										</ul>
+									</section><!--//certificates-section-->
+									<section class="skills-section py-3">
+										<h3 class="text-uppercase resume-section-heading mb-4">علاقه مندی ها</h3>
+										<ul class="list-unstyled resume-interests-list mb-0">
+											<li class="mb-2">تکنولوژِی</li>
+											<li class="mb-2">بسکتبال</li>
+											<li class="mb-2">ریاضیات</li>
+											<li>گشت و گذار</li>
+										</ul>
+									</section><!--//certificates-section-->
+									
+								</aside><!--//resume-aside-->
+							</div><!--//row-->
+						</div><!--//resume-body-->
+						<hr>
+						<div class="resume-footer text-center">
+							<ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://github.com/Always-Learningeek/"><i class="fa-brands fa-github-square fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Always-Learningeek</span></a></li>
+								<li class="list-inline-item mb-lg-0 me-3"><a class="resume-link" href="https://www.linkedin.com/in/yasin-shariati"><i class="fa-brands fa-linkedin fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Yasin shariati</span></a></li>
+                                <li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://t.me/S_sh903"><i class="fa-brands fa-telegram fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">s_sh903</span></a></li>
+                                <li class="list-inline-item mb-lg-0 me-lg-3"><a class="resume-link" href="https://wa.me/00989030931115"><i class="fa-brands fa-whatsapp fa-2x me-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Whatsapp</span></a></li>
+
+							</ul>
+						</div><!--//resume-footer-->
+					</article>
+					
+				</div><!--//container-->
+				
+				<footer class="footer text-center py-4">
+					<!--/* This template is free as long as you keep the footer attribution link. If you'd like to use the template without the attribution link, you can buy the commercial license via our website: themes.3rdwavemedia.com Thank you for your support. :) */-->
+					<small class="copyright text-muted">Designed with <span class="sr-only">love</span><i class="fas fa-heart"></i> by <a class="theme-link" href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+				</footer>
+				
+			</div><!--//main-wrapper-->
+			
+
+</body>
+</html> 
+
